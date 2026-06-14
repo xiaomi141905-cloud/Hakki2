@@ -5,7 +5,16 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters
 
 TOKEN = "8100198477:AAH-tqk77L2rSXG51wsppetdaB7_4bYvVAE"
 API_KEY = "AQ.Ab8RN6ItXaEgx5e_x7s9VMCzHM_Ho5r8brK8YmVbeGWQY33AlwAQ.Ab8RN6ItXaEgx5e_x7s9VMCzHM_Ho5r8brK8YmVbeGWQY33Alw "
-KULLANICI_ID = "800717991"
+KULLANICI_ID = "SOURCE_CHANNELS = [
+    "firsatz", "yaniyocom", "TAZEFIRSAT", "Cuzdown", "onual_firsat", 
+    "indirimlisinerede", "linkledinn", "indirimbakanligi", "amazonozel", 
+    "ozelfirsat", "indirimpare", "anlikindirimbotu", "firsatlar_onemli", 
+    "TAZEFIRSATmini", "firsatavcilari01", "butcedostu", "indirim", 
+    "trendindirimlerim", "indirimz", "indirimc", "indiriim", 
+    "alisverishaberleri", "indirimbultenicom", "firsatikacirmakanal", 
+    "firsattdiyari", "indirimfirsatburada", "dhsicak_firsatlar"
+]
+"
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
